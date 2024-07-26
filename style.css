@@ -1,0 +1,37 @@
+.firts-one {
+    margin-bottom: -420px;
+}
+    
+
+.firts-sec {
+    margin-bottom: -250px;
+}
+.img-four{
+    margin-top: 100px;
+}
+.bb{
+    flex-direction: column;
+    height: 500px;
+}
+@media only screen and (max-width:620px){
+    .bb{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .firts-one , .firts-sec{
+        margin: 0;
+    }
+    .img-four{
+        margin: 0;
+    }
+    
+}
+
+
+.top-div {
+
+    background-color:  rgb(65, 65, 227);
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -40px;
+
+}
